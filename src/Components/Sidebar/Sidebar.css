@@ -1,0 +1,41 @@
+.unselected{
+    color: #6D7095;
+}
+
+/* sidebar */
+.sidebar {
+    width: 208px;
+  } 
+  
+  
+  .sidebar-change {
+    margin-left: -208px;
+  }
+  
+  
+
+
+  @media screen and (max-width: 1400px) {
+    .sidebar {
+      /* padding: 24px 16px; */
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .sidebar {
+      width: 50px;
+    }
+    .sidebar-change {
+      margin-left: -50px;
+    }
+    
+  }
+
+  @media screen and (max-width: 420px) {
+    .sidebar {
+      margin-left: -50px;
+    }
+    .sidebar-change {
+      margin-left: 0px;
+    }
+  }
